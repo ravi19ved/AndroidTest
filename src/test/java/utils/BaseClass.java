@@ -173,14 +173,12 @@ public class BaseClass {
 	 */
 	public void click(By locator) throws Exception {
 		try {
-			waitForElement(locator, 1);
 			wait.until(ExpectedConditions.visibilityOfElementLocated((locator))).click();
 		} catch (Exception e) {
 			throw e;
 
 		}
 	}
-
 	/**
 	 * <p>
 	 * This is to verify the element using actual and expected results
