@@ -28,5 +28,6 @@ public class TestScenarios extends BaseClass{
 	@Test(description ="connectd device UDID and Wifi Name")
 	public void testCase3() throws Exception{
 		execute.udid_wifi();
+	//FYI https://github.com/appium/appium/issues/9698  we can't get all the udid's info need to more R&D
 	}
 }
