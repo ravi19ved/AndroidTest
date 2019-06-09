@@ -82,13 +82,12 @@ To build a Hybrid Test Automation Framework which can be used across different w
 
 The framework consists of the following components.
 
-    • objectLocators
-        ◦ Locators_Flowers
-    • testSteps
-        ◦ TestMethods_Flowers
+    • pageObjects
+        ◦ Locators
+
 
     • testSuite/Scenarios
-        ◦ TestCaesFlowers
+        ◦ TestCases
     • utils
         ◦ BaseClass
 
