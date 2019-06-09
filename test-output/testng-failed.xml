@@ -8,8 +8,8 @@
           <include name="beforeTest"/>
           <include name="tearDown"/>
           <include name="afterSuite"/>
+          <include name="testCase3"/>
           <include name="BeforeClass"/>
-          <include name="testCase2"/>
           <include name="setUpSuiteDetails"/>
           <include name="beforeMethod"/>
         </methods>
