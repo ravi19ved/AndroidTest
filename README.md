@@ -240,9 +240,9 @@ The annotations above will also be honored (inherited) when placed on a supercla
 In that case, TestNG guarantees that the "@Before" methods are executed in inheritance order (highest superclass first, then going down the inheritance chain), and the "@After" methods in reverse order (going up the inheritance chain).
 
 ###  @DataProvider
-
-> Marks a method as supplying data for a test method. The annotated method must return an Object[][] where each Object[] can be assigned the parameter list of the test method. The @Test method that wants to receive data from this DataProvider needs to use a dataProvider name equals to the name of this annotation.
-
+```
+> Marks a method as supplying data for a test method. The annotated method must return an Object"[]"[]"where each Object[] can be assigned the parameter list of the test method. The @Test method that wants to receive data from this DataProvider needs to use a dataProvider name equals to the name of this annotation.
+```
 ### @Test
 
 > it should Marks a class or a method as part of the test.
